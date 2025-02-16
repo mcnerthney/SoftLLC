@@ -1,4 +1,4 @@
-rootProject.name = "Fetch-Take-Home-Test"
+rootProject.name = "SoftApp"
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 pluginManagement {

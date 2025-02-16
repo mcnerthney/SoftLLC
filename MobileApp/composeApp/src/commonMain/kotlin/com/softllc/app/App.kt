@@ -1,4 +1,4 @@
-package com.softllc.fetchtest
+package com.softllc.app
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -10,8 +10,7 @@ import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import androidx.navigation.toRoute
-import com.softllc.fetchtest.screens.list.ListScreen
+import com.softllc.app.screens.list.ListScreen
 import kotlinx.serialization.Serializable
 
 @Serializable

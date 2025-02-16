@@ -1,8 +1,7 @@
-package com.softllc.fetchtest.data
+package com.softllc.app.data
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.map
 
 interface ItemStorage {
     suspend fun saveObjects(newObjects: List<ItemObject>)

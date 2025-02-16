@@ -3,8 +3,9 @@ import ComposeApp
 
 @main
 struct iOSApp: App {
+    var dependenciesProviderHelper = DependenciesProviderHelper()
     init() {
-        KoinKt.doInitKoin()
+       dependenciesProviderHelper.doInitKoin()
     }
 
     var body: some Scene {

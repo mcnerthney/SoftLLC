@@ -33,6 +33,10 @@ kotlin {
             implementation(libs.androidx.compose.ui.tooling.preview)
             implementation(libs.androidx.activity.compose)
             implementation(libs.ktor.client.okhttp)
+            implementation(libs.androidx.google.maps)
+            implementation(libs.google.accompanist.permisstions)
+            implementation(libs.google.play.services.location)
+            implementation(libs.koin.android)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
@@ -51,19 +55,23 @@ kotlin {
 
             implementation(libs.coil.compose)
             implementation(libs.coil.network.ktor)
+
+            implementation(project.dependencies.platform(libs.koin.bom))
             implementation(libs.koin.core)
             implementation(libs.koin.compose.viewmodel)
+
+
             implementation(libs.navigation.compose)
         }
     }
 }
 
 android {
-    namespace = "com.jetbrains.kmpapp"
+    namespace = "com.softllc.app"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jetbrains.kmpapp"
+        applicationId = "com.softllc.app"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

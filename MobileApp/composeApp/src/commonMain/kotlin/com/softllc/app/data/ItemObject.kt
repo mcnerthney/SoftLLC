@@ -1,4 +1,4 @@
-package com.softllc.fetchtest.data
+package com.softllc.app.data
 
 import kotlinx.serialization.Serializable
 
