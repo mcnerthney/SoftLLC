@@ -47,10 +47,10 @@ val viewModelModule = module {
 fun getBaseModules() =
     listOf(dataModule, viewModelModule)
 
-fun initKoin() {
-    startKoin {
-        modules(
-            getBaseModules()
-        )
-    }
-}
+//fun initKoin() {
+//    startKoin {
+//        modules(
+//            getBaseModules()
+//        )
+//    }
+//}

@@ -1,4 +1,4 @@
-package com.softllc.location
+package com.softllc.app.location
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -18,6 +18,8 @@ import kotlinx.coroutines.flow.callbackFlow
 import com.google.android.gms.location.LocationCallback
 import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.Priority
+import com.softllc.location.LocationLatLng
+import com.softllc.location.LocationService
 
 fun Context.hasLocationPermission(): Boolean {
     return ContextCompat.checkSelfPermission(

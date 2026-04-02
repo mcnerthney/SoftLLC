@@ -2,7 +2,7 @@ package com.softllc.app
 
 import android.app.Application
 import com.softllc.app.di.getBaseModules
-import com.softllc.location.AndroidLocationService
+import com.softllc.app.location.AndroidLocationService
 import com.softllc.location.LocationService
 import org.koin.android.ext.koin.androidContext
 import org.koin.android.ext.koin.androidLogger
